@@ -1,0 +1,12 @@
+{
+	"manifest_version": 3,
+	"name": "Twitch auto click",
+	"version": "1.0",
+	"description": "This extension enables users to upload files for ChatGPT to analyze and summarize.",
+	"content_scripts": [
+		{
+			"matches": ["https://www.twitch.tv/*"],
+			"js": ["content.js"]
+		}
+	]
+}
