@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Twitch auto click",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Automatically click the Channel Points reward button in the Twitch chat room at set intervals.",
 	"content_scripts": [
 		{
